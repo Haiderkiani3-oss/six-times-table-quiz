@@ -19,7 +19,6 @@ mainBox=Rect(20,100,360,200,fill='lavender',border='indigo',borderWidth=3)
 questionText=Label('6 x 1 = ',210,150,bold=True,fill='indigo',size=24)
 # intsrutions for the user
 helpText=Label("Look at the question then click on the right answer:",200,120,bold=True,size=13,fill='darkslateGray')
-
 # clickable Boxes
 box1=Group(Rect(50,175,300,32,fill='plum',border='purple'),Label('6',200,191,size=18,bold=True))
 box2=Group(Rect(50,215,300,32,fill='plum',border='purple'),Label("12",200,231,size=18,bold=True))
