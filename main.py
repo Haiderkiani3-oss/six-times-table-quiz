@@ -70,7 +70,7 @@ def goNext():
         nextArrow.visible=False
 #creates the 2 wrong clicks and a correct answer
         realAnswer=app.allAnswers[app.questionNumber]
-# adds 6 to the answer then subtracts 3 from the answer
+#adds 6 to the answer then subtracts 3 from the answer
         choices = [realAnswer,realAnswer + 6, realAnswer - 3 if realAnswer - 3 > 0  else realAnswer + 12]
         
         random.shuffle(choices)
