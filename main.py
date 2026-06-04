@@ -94,7 +94,6 @@ def goNext():
                 Label('Question: WRONG',200,yPos,fill='lightCoral',size=14,font='monospace')
             yPos+=22
 def onMousePress(mouseX,mouseY):
-    
     for btn in app.buttonsList:
         if btn.contains(mouseX,mouseY)and nextArrow.visible==False:
             clickedNumber = int (btn.children[1].value)
