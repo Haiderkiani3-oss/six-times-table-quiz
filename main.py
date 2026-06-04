@@ -52,7 +52,7 @@ def checkAnswer(clickedNumber):
         if app.wrongClicks == 1 :
             helpText.value = "Not quite. Try one more Time!"
             helpText.fill='crimson'
-# gives the user the correct answer if they get it wrong the second time and lets them move on
+#gives the user the correct answer if they get it wrong the second time and lets them move on
         else:
             helpText.value= "The correct answer was " + str(realAnswer)
             helpText.fill='darkOrange'
