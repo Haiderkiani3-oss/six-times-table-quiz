@@ -6,7 +6,7 @@ Label('Master Your 6 Times Table!',200,35,size=28,bold=True,fill='coral')
 #List
 app.allAnswers=[6,12,18,24,30,36,42,48,54,60]
 # User's question Number 
-app.questionNumber=0
+app.questionNumber= 0
 app.wrongClicks=0
 app.totalRight=0
 # Whether the User Passed or Failed
