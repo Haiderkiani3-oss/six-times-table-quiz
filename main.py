@@ -10,7 +10,7 @@ app.questionNumber= 0
 app.wrongClicks=0
 app.totalRight= 0
 # Whether the User Passed or Failed
-app.scoreHistory=[]
+app.scoreHistory= []
 
 app.quizShapes=Group()
 
