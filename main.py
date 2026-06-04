@@ -1,5 +1,5 @@
 import random
-# BackGround
+#BackGround
 app.background=gradient("midnightBlue",'Purple',start='top')
 #Title 
 Label('Master Your 6 Times Table!',200,35,size=28,bold=True,fill='coral')
