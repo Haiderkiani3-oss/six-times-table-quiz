@@ -24,7 +24,6 @@ box1=Group(Rect(50,175,300,32,fill='plum',border='purple'),Label('6',200,191,siz
 box2=Group(Rect(50,215,300,32,fill='plum',border='purple'),Label("12",200,231,size=18,bold=True))
 box3=Group(Rect(50,255,300,32,fill='plum',border='purple'),Label("18",200,271,size=18,bold=True))
 
-
 app.quizShapes.add(mainBox,questionText,helpText,box1,box2,box3)
 #list for buttons
 app.buttonsList=[box1,box2,box3]
