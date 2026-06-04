@@ -12,7 +12,6 @@ app.totalRight=0
 # Whether the User Passed or Failed
 app.scoreHistory=[]
 
-
 app.quizShapes=Group()
 
 mainBox=Rect(20,100,360,200,fill='lavender',border='indigo',borderWidth=3)
