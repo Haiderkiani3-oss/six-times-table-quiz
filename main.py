@@ -28,7 +28,7 @@ box3=Group(Rect(50,255,300,32,fill='plum',border='purple'),Label("18",200,271,si
 
 
 app.quizShapes.add(mainBox,questionText,helpText,box1,box2,box3)
-# list for buttons
+#list for buttons
 app.buttonsList=[box1,box2,box3]
 
 # Takes the user to the next question
